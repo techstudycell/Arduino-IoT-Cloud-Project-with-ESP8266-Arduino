@@ -107,7 +107,7 @@ To make the circuit compact and give a professional look, I have designed the PC
 
 You can download the PCB Gerber file of this home automation project from the following link:
 
-GitHub link to Download PCB Gerber File
+https://github.com/techstudycell/Arduino-IoT-Cloud-Project-with-ESP8266-Arduino/blob/main/PCB_Gerber/PCB_Gerber_Arduino_NodeMCU_Sensors_V13.zip
 
 ## Why you should use JLC SMT Service?
 
