@@ -2,7 +2,7 @@
 In this IoT project, I have shown how to make an IoT-based Smart Home with Arduino IoT Cloud &amp; Alexa using ESP8266 Arduino to control 4 home appliances with voice commands, IR remote, and manual switches. If the internet is unavailable, you can control the home appliances from IR remote &amp; manual switches. In the article, I have shown all the steps to make this smart home system.
 
 ## Tutorial video on Arduino IoT Cloud Project
-Video Link: https://youtu.be/IMb52-h4tzQ
+Video Link: https://youtu.be/WLSg9S1_3do
 
 ### This Arduino Home Automation system has the following features:
 
