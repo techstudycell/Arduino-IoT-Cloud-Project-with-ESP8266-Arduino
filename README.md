@@ -178,10 +178,10 @@ For the room temperature reading, select Alexa compatible Temperature Sensor. Va
 In a similar way, you have to add total 4 Switch widgets to control 4 relays.
 For the temperature, select Gauge widgets and link the Temperature variable. You can also set the MIN and MAX limits.
 
-##Get the IR Codes (HEX Code) From Remote
+## Get the IR Codes (HEX Code) From Remote
 Now, to get the HEX codes from the remote, first, we have to connect the IR receiver output pin with the A0 pin of Arduino UNO.And give the 5V across the VCC and GND. The IR receiver must have a metallic casing, otherwise, you may face issues.
 
-##Then follow the following steps to get the HEX codes:
+Then follow the following steps to get the HEX codes:
 1. Install the IRremote libraryIn Arduino IDE.
 2. Download the attached code, and upload it to Arduino UNO.
 3. Open Serial Monitor with Baud rate 9600.
@@ -192,15 +192,20 @@ Now, to get the HEX codes from the remote, first, we have to connect the IR rece
 ## Program the ESP8266 NodeMCU With Arduino IDE
 To program the NodeMCU, I have used Arduino IDE.
 
-Download the attached code.
+Download the Source Code: https://github.com/techstudycell/Arduino-IoT-Cloud-Project-with-ESP8266-Arduino/tree/main/Code
 
 First, you have to install the ArduinoIoTCloud library. During installation, it may ask to install other dependencies. Then click on Install All.
-In the code, enter the following details
+In the code, enter the following details.
+
 const char DEVICE_LOGIN_NAME[] = ""; //Enter DEVICE ID
+
 const char SSID[]        = "";  //Enter WiFi SSID (name)
+
 const char PASS[]        = "";  //Enter WiFi password
+
 const char DEVICE_KEY[]     = "";  //Enter Secret device password (Secret Key)
-the DEVICE_LOGIN_NAME[] and DEVICE_KEY[] from the PDF which you have downloaded during adding the device to the Arduino IoT cloud.
+
+You will get the DEVICE_LOGIN_NAME[] and DEVICE_KEY[] from the PDF which you have downloaded during adding the device to the Arduino IoT cloud.
 
 I have shown all the steps in the tutorial video. After doing all these changes, you can upload the code to NodeMCU.
 
